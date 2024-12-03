@@ -8,7 +8,7 @@ def create_chat_completion(messages):
     - The Azure OpenAI endpoint, key, and deployment name are stored in Streamlit secrets."""
 
     # Retrieve secrets from the Streamlit secret store.
-    # This is a secure way to store sensitive information that you don't want to expose in your code.
+    # This is a secure way to store sensitivevwe information that you don't want to expose in your code.
     # Learn more about Streamlit secrets here: https://docs.streamlit.io/develop/concepts/connections/secrets-management
     # The secrets themselves are stored in the .streamlit/secrets.toml file.
     aoai_endpoint = st.secrets["aoai"]["endpoint"]
